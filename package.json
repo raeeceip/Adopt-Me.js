@@ -2,12 +2,15 @@
   "name": "portfolio-v2.0",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://raeeceip.github.io/portfolio-v2.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint": "eslint \"src/**/*.{js,.jsx,.ts,.tsx src}\" --quiet"
+    "lint": "eslint \"src/**/*.{js,.jsx,.ts,.tsx src}\" --quiet",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+   
   },
   "keywords": [],
   "author": "",
@@ -19,14 +22,19 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+<<<<<<< HEAD
     "gh-pages": "^4.0.0",
+=======
+    "gh-pages": "^4.2.0",
+>>>>>>> gh-pages
     "parcel": "^2.2.1",
     "prettier": "^2.7.1",
     "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1"
   },
   "browserslist": [
     "last 2 chrome version",
