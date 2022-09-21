@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint": "eslint \"src/**/*.{js,.jsx,.ts,.tsx src}\" --quiet"
+    "lint": "eslint \"src/**/*.{js,.jsx,.ts,.tsx src}\" --quiet",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
