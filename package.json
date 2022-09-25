@@ -7,7 +7,7 @@
     "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,.jsx,.ts,.tsx src}\" --quiet",
-    "build": "parcel src/index.html"
+    "build": "npm run dev"
   },
   "keywords": [],
   "author": "",
