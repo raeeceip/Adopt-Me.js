@@ -1,4 +1,5 @@
 {
+  "homepage":"http://raeeceip.github.io/Adopt-Me.js",
   "name": "portfolio-v2.0",
   "version": "1.0.0",
   "description": "",
@@ -6,6 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint \"src/**/*.{js,.jsx,.ts,.tsx src}\" --quiet",
     "build": "npx -p parcel-bundler parcel build src/index.html"
   },
