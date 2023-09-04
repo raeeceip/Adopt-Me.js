@@ -5,7 +5,7 @@
   "main": "src/App.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "npx -p parcel-bundler parcel build src/index.html",
+    "build": "npx -p parcel-bundler parcel build src/index.html ---no-minify",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "typecheck": "tsc --noEmit"
@@ -27,6 +27,7 @@
     "eslint-plugin-react-hooks": "4.3.0",
     "parcel": "2.2.1",
     "prettier": "2.5.1",
+    "process": "^0.11.10",
     "typescript": "4.5.5"
   },
   "dependencies": {
