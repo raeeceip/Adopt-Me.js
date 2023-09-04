@@ -5,7 +5,7 @@
   "main": "src/App.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "npx -p parcel-bundler parcel build src/index.html ---no-minify",
+    "build": "npx -p parcel-bundler parcel build src/index.html --no-minify",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "typecheck": "tsc --noEmit"
